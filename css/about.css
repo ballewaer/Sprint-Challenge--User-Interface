@@ -189,7 +189,11 @@ h2, button, p {
     margin-left: 10px;
 }
 
-.Stratagy, .How_We_Work, .Places_We_Work, .Collaboration {
+.Strategy, .How_We_Work, .Places_We_Work, .Collaboration, h2 {
+    margin-top: 15px;
+}
+
+.Strategy, .How_We_Work, .Places_We_Work, .Collaboration {
 margin-bottom: 15px;
 width: 370px;
 margin-right: 30px;
