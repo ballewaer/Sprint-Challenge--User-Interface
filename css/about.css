@@ -148,13 +148,13 @@ footer nav a {
 /* MY CODE STARTING HERE */
 
 .top-nav {
-width: 800px;
-height: 60px;
-margin-top: 5px;
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-margin-bottom: 30px;
+    width: 800px;
+    height: 60px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
 }
 
 .top-nav a {
@@ -163,126 +163,66 @@ margin-bottom: 30px;
     color: black;
 }
 
-.top_img {
+.top_image {
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.middle_section {
+    border-bottom: 2px dotted black;
+    padding-bottom: 15px;
+    width: 800px;
+}
+
+.Middle_container {
+margin-left: 0;
+display: flex;
+margin-top: 15px;
 margin-bottom: 30px;
 }
 
-.middle-content .boxes .box1 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: teal;
+h2, button, p {
+    margin-left: 10px;
 }
 
-.middle-content .boxes .box2 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: gold;
+.Strategy, .How_We_Work, .Places_We_Work, .Collaboration, h2 {
+    margin-top: 15px;
 }
 
-.middle-content .boxes .box3 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: cadetblue;
+.Strategy, .How_We_Work, .Places_We_Work, .Collaboration {
+margin-bottom: 15px;
+width: 370px;
+margin-right: 30px;
+border-bottom: 2px dotted black;
 }
 
-.middle-content .boxes .box4 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: coral;
+.Lets_Work_Together {
+width: 800px;
+margin-bottom: 30px;
 }
 
-.middle-content .boxes .box5 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: crimson;
+.Lets_Work_Together p {
+    width: 800px;
+    margin-bottom: 30px;
 }
 
-.middle-content .boxes .box6 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: forestgreen;
-}
-
-.middle-content .boxes .box7 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: darkorchid;
-}
-
-.middle-content .boxes .box8 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: hotpink;
-}
-
-.middle-content .boxes .box9 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: indigo;
-}
-
-.middle-content .boxes .box10 {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-     margin: 20px 2.5%; 
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: dodgerblue;
+button {
+    display: inline-block;
+    width: 140px;
+    height: 35px;
+    margin-top: 20px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-bottom: 15px;
 }
